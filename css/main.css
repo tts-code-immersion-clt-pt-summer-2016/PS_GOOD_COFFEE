@@ -22,13 +22,51 @@ body {
 	color: #F7FAFE
 }
 
-.misson{
+.mission{
 	background-color: #323232;
 	color: #F7FAFE;
 	margin-top: 30px;
 }
 
-.misson h3{
+.mission h3{
 	padding: 5% 10%;
 	text-align: center;
+}
+
+.features {
+    padding: 5% 0;
+}
+
+.features p {
+    font-family: 'Muli', 'sans-serif';
+    text-align: center;
+    color: #323232;
+    font-size: 1.2em;
+    padding-top: 10px;
+}
+
+footer {
+	background-color: #D64541;
+	position: absolute;
+	width: 100%;
+	height: auto;
+}
+
+footer ul li{
+	display: inline-block;
+	list-style: none;
+	padding: 2%;
+	float: right;
+}
+
+footer p{
+	float: left;
+	padding: 2%;
+    color:#fff;
+    vertical-align: middle;
+}
+
+footer a{
+    color:#fff;
+    vertical-align: middle;
 }
